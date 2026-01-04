@@ -8,12 +8,14 @@ docs/ 目录用于集中存放本项目在设计、实现、验证与展示过�
 为避免文档混乱，所有文件需按照既定分类规则进行存放与维护。
 
 ## 二、目录结构与功能说明
+<pre>
 docs/
 ├── README.md
 ├── examples/
 ├── deliverables/
 ├── internal/
 └── assets/
+</pre>
 
 # 1. examples/ —— 参考资料目录
 
