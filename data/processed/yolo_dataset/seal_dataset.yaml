@@ -1,0 +1,18 @@
+# YOLOv5 印章检测数据集配置文件
+# 数据集路径 (相对于此yaml文件)
+path: .  # 数据集根目录
+train: images/train  # 训练集图片路径
+val: images/val      # 验证集图片路径
+test: images/test    # 测试集图片路径
+
+# 类别数量
+nc: 1  # number of classes
+
+# 类别名称
+names: ['seal']  # class names
+
+# 数据集统计
+# 训练集: 965 张
+# 验证集: 243 张
+# 测试集: 474 张
+# 总计: 1682 张
