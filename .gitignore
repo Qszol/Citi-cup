@@ -6,3 +6,18 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# VS Code
+.vscode/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+# YOLO training outputs
+runs/
+weights/
+*.pt
+*.pth
+*.onnx
