@@ -413,6 +413,12 @@ python evaluate.py \
 pip install -r requirements.txt
 ```
 
+### 模型权重准备
+预训练的模型权重文件可从 Hugging Face 公开仓库下载：
+[https://huggingface.co/Qszool/Citi-cup-Model/blob/main/best_model.pth]
+
+请在项目目录下创建 `checkpoints/` 目录，并将下载的模型权重文件（`best_model.pth`）放置于 `checkpoints/` 目录下。
+
 ### 执行命令
 
 使用大模型鉴别和生成评价（默认通过加载本地 Qwen2.5-0.5B-Instruct 小参数模型进行推断）：
